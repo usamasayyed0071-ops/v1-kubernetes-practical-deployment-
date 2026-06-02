@@ -1,1 +1,0 @@
-# v1-kubernetes-practical-deployment-
