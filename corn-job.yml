@@ -20,3 +20,4 @@ spec:
           kubectl get cronjob
           kubectl get jobs
           kubectl get pods
+          kubectl logs <pod-name>
