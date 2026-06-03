@@ -14,7 +14,3 @@ spec:
       restartPolicy: Never
 
 
-(commands) kubectl apply -f job.yaml
-      kubectl get jobs
-      kubectl get pods
-      kubectl logs <pod-name>
