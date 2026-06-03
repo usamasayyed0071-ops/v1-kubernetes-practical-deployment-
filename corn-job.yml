@@ -4,7 +4,7 @@ metadata:
   name: hello-cron
 
 spec:
-  schedule: "*/1 * * * *"
+  schedule: "*/2 * * * *"
   jobTemplate:
     spec:
       template:
