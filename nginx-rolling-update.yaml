@@ -8,15 +8,15 @@ spec:
 
   selector:
     matchLabels:
-      app: nginx-deployment
+      app: mynginx
   template:
     metadata:
       labels:
-        app: nginx-deployment
+        app: mynginx
 
     spec:
       containers:
-      - name: nginx
+      - name: mynginx
         image: nginx:1.20
         ports:
         - containerPort: 80
